@@ -1,4 +1,4 @@
-package com.wy.push;
+package com.wy.push_xiaomi;
 
 /**
  * @author wugoudan wulog@outlook.com
