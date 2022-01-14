@@ -1,4 +1,4 @@
-package com.wy.push_xiaomi;
+package wy.push.xiaomi;
 
 /**
  * @author wugoudan wulog@outlook.com
@@ -6,7 +6,7 @@ package com.wy.push_xiaomi;
  * @date 2022/1/14 15:31
  * @effect
  */
-public class A {
+public class AA {
     public static void aa(){
 
     }

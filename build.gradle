@@ -13,12 +13,6 @@ android {
         consumerProguardFiles "consumer-rules.pro"
     }
 
-    sourceSets {
-        main {
-            jniLibs.srcDirs = ['libs']
-        }
-    }
-
     buildTypes {
         release {
             minifyEnabled false
@@ -28,6 +22,5 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
     api files('libs/mi_push_4_9_0.jar')
 }
