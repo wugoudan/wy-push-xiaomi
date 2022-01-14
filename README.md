@@ -1,1 +1,0 @@
-# wy-push-xiaomi
