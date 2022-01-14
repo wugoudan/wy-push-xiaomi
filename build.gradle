@@ -39,5 +39,5 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
-    implementation files('libs/mi_push_4_9_0.jar')
+    api files('libs/mi_push_4_9_0.jar')
 }
