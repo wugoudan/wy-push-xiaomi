@@ -1,7 +1,6 @@
-plugins {
-    id 'com.android.library'
-    id 'com.github.dcendents.android-maven'
-}
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.wugoudan'
 
 android {
     compileSdkVersion 29
@@ -25,5 +24,6 @@ android {
 }
 
 dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
     api files('libs/mi_push_4_9_0.jar')
 }
